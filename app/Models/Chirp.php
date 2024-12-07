@@ -6,5 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Chirp extends Model
 {
-    //
+    //Affectation en masse
+    protected $fillable = [
+        'message',
+    ];
 }
